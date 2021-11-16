@@ -39,22 +39,20 @@
 
 .email{
   position: absolute;
-  width: 498px;
-  height: 56px;
+  width: 500px;
+  height: 70px;
   left: 120px;
   top: 327px;  
-  border: 1px solid #CEE0FA;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .contraseña{
   position: absolute;
-  width: 498px;
+  width: 500px;
   height: 56px;
   left: 120px;
   top: 403px;
-  border: 1px solid #CEE0FA;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -141,4 +139,13 @@
   text-align: center;
 
   color: #5594EF;
+}
+
+.danger{
+  color: red;
+  font-size: 15px;
+}
+
+input.danger{
+  border: 2px solid red;
 }
